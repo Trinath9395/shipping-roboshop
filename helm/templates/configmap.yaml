@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: catalogue
+  name: shipping
   namespace: roboshop
   labels: # these labels are deployment labels
-    app: catalogue
+    app: shipping
     project: roboshop
     tier: app
 data:
